@@ -3,15 +3,15 @@ ninja: Entering directory `D:\app-expo-example\apps\test-container\entry\.cxx\de
 clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
 [2/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/Promise.cpp.o
 clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
-[3/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/JSValue.cpp.o
+[3/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/ExpoRuntime.cpp.o
 clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
-[4/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/ExpoRuntime.cpp.o
+[4/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/JSValue.cpp.o
 clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
 [5/14] Building CXX object CMakeFiles/entry.dir/napi_init.cpp.o
 clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
-[6/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/ExpoModulesRegistry.cpp.o
+[6/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/JsiTurboModuleFacade.cpp.o
 clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
-[7/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/JsiTurboModuleFacade.cpp.o
+[7/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/ExpoModulesRegistry.cpp.o
 clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
 [8/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/ExpoJsiBridge.cpp.o
 clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
