@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(oniro-app:*)",
+      "powershell",
+      "Shell(C:\\Users\\Benja\\command-line-tools\\bin\\ohpm.exe:*)",
+      "Shell(C:\\Users\\Benja\\command-line-tools\\bin\\hvigorw.exe:*)",
+      "Shell(oniro-app app launch --bundle com.expo.sdk.testcontainer 2>&1; oniro-app watch --log \"testTag\" --bundle com.expo.sdk.testcontainer --for 8000 --json 2>&1)",
+      "Shell(D:\\deveco2026\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\hdc.exe:*)",
+      "Shell(grep:*)",
+      "Shell(tasklist:*)"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}

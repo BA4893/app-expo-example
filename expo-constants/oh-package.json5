@@ -1,0 +1,12 @@
+{
+  "name": "@expo/ohos-expo-constants",
+  "version": "0.1.0",
+  "description": "expo-constants native module for OpenHarmony via JSI + N-API.",
+  "main": "index.ets",
+  "types": "index.d.ts",
+  "author": "Expo SDK for OpenHarmony",
+  "license": "MIT",
+  "dependencies": {
+    "@expo/ohos-expo-modules-core": "0.1.0"
+  }
+}

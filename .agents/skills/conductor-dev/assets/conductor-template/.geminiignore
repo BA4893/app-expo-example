@@ -1,0 +1,15 @@
+# HarmonyOS Build Artifacts
+build/
+.hvigor/
+oh_modules/
+.idea/
+*.hap
+*.hsp
+*.app
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Conductor State (Internal)
+conductor/setup_state.json

@@ -1,0 +1,10 @@
+{
+  "name": "@expo/ohos-expo-modules-core",
+  "version": "0.1.0",
+  "description": "Expo Modules Core for OpenHarmony — N-API module registry, value model, and promise primitives.",
+  "main": "index.ets",
+  "types": "index.d.ts",
+  "author": "Expo SDK for OpenHarmony",
+  "license": "MIT",
+  "dependencies": {}
+}

@@ -1,0 +1,21 @@
+# ninja log v6
+22	38	8094813719440778	clean	b514846310e6cc4c
+59	858	8094765998732426	CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/Promise.cpp.o	bc22c4d8b23bcc2e
+83	862	8094765998977967	CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/ExpoHostObject.cpp.o	8f3ee7254931bf79
+47	9824	8094765998609098	CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/JSValue.cpp.o	4b58aa1d4b82b707
+53	9946	8094765998672421	CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/ExpoModulesRegistry.cpp.o	3a4c0b0cdb01e3b4
+60	564	8094814122331401	build.ninja	f5583ca669b385be
+65	514	8094814125689114	CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/Promise.cpp.o	bb7f10c0c9870a39
+75	521	8094814125795540	CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/ExpoHostObject.cpp.o	ec26490f612dca26
+50	3954	8094814125533527	CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/JSValue.cpp.o	6c2d9ddf7fc2b0fe
+106	4211	8094814126101647	CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/JsiTurboModuleFacade.cpp.o	786e2d3ad2f93882
+86	4298	8094814125901516	CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/ExpoRuntime.cpp.o	a638a4a221900e37
+40	4367	8094814125445709	CMakeFiles/entry.dir/napi_init.cpp.o	ff5a7e88fd04ad56
+57	4473	8094814125613618	CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/ExpoModulesRegistry.cpp.o	8fedba00762ea23a
+95	5133	8094814125991664	CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/ExpoJsiBridge.cpp.o	a39114f5b9ab6c16
+118	5355	8094814126225505	CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/FabricViewManagerFacade.cpp.o	a607f91b6b9adc4c
+131	5660	8094814126355483	CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/hermes.cpp.o	ec036350c6d892c4
+170	5786	8094814126737323	CMakeFiles/entry.dir/D_/app-expo-example/expo-constants/ohos/src/ExpoConstants.cpp.o	4269ab85697b885c
+144	6541	8094814126485639	CMakeFiles/entry.dir/D_/app-expo-example/expo-device/ohos/src/ExpoDevice.cpp.o	d80b15b51f1c03ac
+157	6671	8094814126605637	CMakeFiles/entry.dir/D_/app-expo-example/expo-file-system/ohos/src/ExpoFileSystem.cpp.o	fcd1319a38c87582
+6671	6942	8094814191757917	D:/app-expo-example/apps/test-container/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	7b66ca7a8a3216b

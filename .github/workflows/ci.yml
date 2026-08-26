@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint-build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install oniro-app
+        run: npm i -g @oniroproject/oniro-app
+
+      - name: Install OpenHarmony SDK
+        run: oniro-app sdk install 6.0
+
+      - name: Install command-line tools
+        run: oniro-app cmdtools install --from-zip "$env:ONIRO_CMD_TOOLS_ZIP"
+        env:
+          ONIRO_CMD_TOOLS_ZIP: ${{ vars.ONIRO_CMD_TOOLS_ZIP }}
+
+      # Note: `oniro-app lint` requires codelinter, which is not distributed as a
+      # standalone binary on this toolchain. The ArkTS compiler enforces strict mode
+      # during `oniro-app build`, so build is the primary gate.
+      - name: Build (strict-mode gate)
+        working-directory: apps/test-container
+        run: oniro-app build

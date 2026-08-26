@@ -1,0 +1,32 @@
+ninja: Entering directory `D:\app-expo-example\apps\test-container\entry\.cxx\default\default\debug\x86_64'
+[1/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/ExpoHostObject.cpp.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+[2/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/Promise.cpp.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+[3/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/JSValue.cpp.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+[4/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/ExpoRuntime.cpp.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+[5/14] Building CXX object CMakeFiles/entry.dir/napi_init.cpp.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+[6/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/ExpoModulesRegistry.cpp.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+[7/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/JsiTurboModuleFacade.cpp.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+[8/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/ExpoJsiBridge.cpp.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+[9/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/FabricViewManagerFacade.cpp.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+[10/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-modules-core/ohos/src/hermes.cpp.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+D:/app-expo-example/expo-modules-core/ohos/src/hermes.cpp:117:22: warning: decomposition declarations are a C++17 extension [-Wc++17-extensions]
+    for (const auto& [key, _] : properties_) {
+                     ^~~~~~~~
+1 warning generated.
+[11/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-constants/ohos/src/ExpoConstants.cpp.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+[12/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-device/ohos/src/ExpoDevice.cpp.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+[13/14] Building CXX object CMakeFiles/entry.dir/D_/app-expo-example/expo-file-system/ohos/src/ExpoFileSystem.cpp.o
+clang++: warning: argument unused during compilation: '--gcc-toolchain=D:/deveco2026/DevEco Studio/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+[14/14] Linking CXX shared library D:\app-expo-example\apps\test-container\entry\build\default\intermediates\cmake\default\obj\x86_64\libentry.so

@@ -1,0 +1,44 @@
+{
+  "name": "expo-openharmony",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Expo SDK native modules for OpenHarmony / HarmonyOS",
+  "workspaces": [
+    "expo-modules-core",
+    "expo-device",
+    "expo-file-system",
+    "expo-constants",
+    "expo-sdk"
+  ],
+  "scripts": {
+    "build": "node scripts/harmony-build.mjs",
+    "start": "node scripts/harmony-run.mjs",
+    "metro": "metro --config metro.config.js",
+    "metro:dev": "metro --config metro.config.js --dev true",
+    "bundle": "react-native bundle --platform openharmony --dev false --entry-file index.js --bundle-output dist/main.js --assets-dest dist",
+    "bundle:dev": "react-native bundle --platform openharmony --dev true --entry-file index.js --bundle-output dist/main.js --assets-dest dist",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react-native": "github:linhandev/ohos_react_native#main"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native/metro-config": "^0.73.0",
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.73.0",
+    "babel-preset-expo": "^11.0.0",
+    "eslint": "^8.0.0",
+    "hermes-engine": "github:facebook/hermes#main",
+    "metro": "^0.80.0",
+    "metro-config": "^0.80.0",
+    "metro-react-native-babel-preset": "^0.80.0",
+    "react": "18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "resolutions": {
+    "react-native": "github:linhandev/ohos_react_native#main"
+  }
+}

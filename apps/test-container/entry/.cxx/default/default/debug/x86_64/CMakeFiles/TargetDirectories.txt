@@ -1,0 +1,3 @@
+D:/app-expo-example/apps/test-container/entry/.cxx/default/default/debug/x86_64/CMakeFiles/entry.dir
+D:/app-expo-example/apps/test-container/entry/.cxx/default/default/debug/x86_64/CMakeFiles/edit_cache.dir
+D:/app-expo-example/apps/test-container/entry/.cxx/default/default/debug/x86_64/CMakeFiles/rebuild_cache.dir

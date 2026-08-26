@@ -1,0 +1,30 @@
+{
+  "modelVersion": "5.1.0",
+  "name": "@expo/ohos-expo-sdk",
+  "version": "0.1.0",
+  "description": "Expo SDK for OpenHarmony — full Expo modules collection with JSI + N-API bridge.",
+  "author": "Expo SDK for OpenHarmony",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./*": {
+      "types": "./lib/*.d.ts",
+      "default": "./lib/*.js"
+    }
+  },
+  "dependencies": {
+    "@expo/ohos-expo-modules-core": "0.1.0",
+    "@expo/ohos-expo-device": "0.1.0",
+    "@expo/ohos-expo-file-system": "0.1.0",
+    "@expo/ohos-expo-constants": "0.1.0"
+  },
+  "devDependencies": {
+    "@ohos/hypium": "1.0.24",
+    "@ohos/hamock": "1.0.0"
+  }
+}

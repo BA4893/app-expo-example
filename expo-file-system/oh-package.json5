@@ -1,0 +1,12 @@
+{
+  "name": "@expo/ohos-expo-file-system",
+  "version": "0.1.0",
+  "description": "expo-file-system native module for OpenHarmony via N-API.",
+  "main": "index.ets",
+  "types": "index.d.ts",
+  "author": "Expo SDK for OpenHarmony",
+  "license": "MIT",
+  "dependencies": {
+    "@expo/ohos-expo-modules-core": "0.1.0"
+  }
+}

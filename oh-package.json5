@@ -1,0 +1,19 @@
+{
+  "modelVersion": "5.1.0",
+  "name": "expo-openharmony",
+  "version": "0.1.0",
+  "description": "Expo SDK for OpenHarmony — N-API module bridge and native Expo modules.",
+  "author": "Expo SDK for OpenHarmony",
+  "license": "MIT",
+  "dependencies": {
+    "@expo/ohos-expo-modules-core": "file:./expo-modules-core",
+    "@expo/ohos-expo-device": "file:./expo-device",
+    "@expo/ohos-expo-file-system": "file:./expo-file-system",
+    "@expo/ohos-expo-constants": "file:./expo-constants",
+    "@expo/ohos-expo-sdk": "file:./expo-sdk"
+  },
+  "devDependencies": {
+    "@ohos/hypium": "1.0.24",
+    "@ohos/hamock": "1.0.0"
+  }
+}

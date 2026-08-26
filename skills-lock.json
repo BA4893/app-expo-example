@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "conductor-dev": {
+      "source": "eclipse-oniro4openharmony/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/conductor-dev/SKILL.md",
+      "computedHash": "48700796f5bfc6964e0a8ee4b85f7c989c25b8c61a0281e495ba7daf8e316a12"
+    },
+    "ohos-app-dev": {
+      "source": "eclipse-oniro4openharmony/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ohos-app-dev/SKILL.md",
+      "computedHash": "cbeddc81575f04ba2bf91882e927277d04b704a736735b56946c94451787dd5f"
+    },
+    "ohos-app-scaffold": {
+      "source": "eclipse-oniro4openharmony/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ohos-app-scaffold/SKILL.md",
+      "computedHash": "2ba01d411225810d4d836f3e59a4cc3a36f53d48794d8b1e3b2f9ba19036b37b"
+    }
+  }
+}
